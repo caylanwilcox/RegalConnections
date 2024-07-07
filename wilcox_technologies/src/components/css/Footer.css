@@ -1,0 +1,73 @@
+.footer {
+  margin: 1rem 0;   
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: #4991de;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer .contact-info,
+.footer .business-hours,
+.footer .company-description {
+  margin-bottom: 1rem;
+}
+
+.footer h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer-bottom {
+  margin-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 0.5rem;
+}
+
+/* Social Media styles, though not used currently */
+.footer .social-media a {
+  margin: 0 0.5rem;
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.social-media .instagram:hover {
+  color: rgb(233, 101, 101);
+}
+
+.footer .social-media a:hover {
+  color: #285cf7;
+}
+
+/* Newsletter styles, though not used currently */
+.footer .newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .newsletter input[type="email"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.footer .newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer .newsletter button:hover {
+  background-color: #777;
+}

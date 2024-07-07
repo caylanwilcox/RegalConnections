@@ -1,0 +1,131 @@
+/* src/components/css/WhoAmI.css */
+
+.who-am-i {
+  
+  padding: 20px;
+  background-color: #ffffff; /* Changed to white for a clean look */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.who-am-i-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.who-am-i-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.who-am-i h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333333; /* Darker color for better readability */
+  text-align: center;
+}
+
+.who-am-i p {
+  color: #555555; /* Neutral grey for text */
+  margin-bottom: 10px;
+  line-height: 1.6; /* Improved readability */
+  font-size: 1em;
+}
+.preach{
+  text-align: center;
+  padding: 70px;
+padding-top: 20px;
+}
+.who-am-i ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.who-am-i ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #555555; /* Consistent text color */
+  font-size: 1.2em; /* Standardized font size */
+}
+
+.who-am-i ul li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #007bff; /* Updated to match the button color */
+  font-weight: bold;
+}
+
+.who-am-i .book-call-button {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #007bff; /* Consistent branding color */
+  color: white;
+font-size: 1.3em;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  margin-top: 30px;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.who-am-i .book-call-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+.Decision-Time{
+  align-items: center; /* Align items to the bottom */
+  padding: 3rem;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  gap: 2rem;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 33px rgba(0, 0, 0, 0.08);
+}
+
+.who-am-i-image {
+  flex: 0 0 150px; /* Adjust size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px; /* Space between image and text */
+}
+
+.who-am-i-image img {
+  width: 220px; /* Reduced size for professional look */
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #7aade4; /* Border to match branding */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .who-am-i-content {
+    flex-direction: column;
+    text-align: center; /* Center text for mobile */
+  }
+.preach{
+  padding: 10px;
+}
+  .who-am-i-text {
+    padding-right: 0;
+    margin-bottom: 20px; /* Space between text and image */
+  }
+
+  .who-am-i-image {
+    margin-left: 0;
+  }
+.Decision-Time{
+  padding: 20px;
+}
+  .who-am-i-image img {
+    width: 120px; /* Smaller image on mobile */
+    height: 120px;
+  }
+}
