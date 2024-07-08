@@ -48,7 +48,7 @@ const Hero = () => {
         <div className='hero-wrap'>
         <div className="hero-section">
           <div className="hero-text ">
-            <h1>Schedule An Appointment Today!</h1>
+            <h1>Schedule A Meeting Today!</h1>
             <h2><span className='gold'>Reclaim <br/></span> What's Rightfully Yours with <span className='purple'><br/>Regal Connections LLC</span></h2>
             {isMobile && (
               <img src={group} alt="Hero" />
