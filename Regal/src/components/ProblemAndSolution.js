@@ -54,7 +54,7 @@ const ProblemAndSolution = () => {
           <img src={law} alt="Contact" />
         </div>
         <div className="solution-text">
-          <h2>4. Contact</h2>
+          <h2>4. Engage</h2>
           <p>Next, we handle all communications with relevant authorities and institutions to confirm and secure these funds. We manage the paperwork and legal processes on your behalf.</p>
         </div>
       </div>
