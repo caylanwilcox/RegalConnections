@@ -1,5 +1,3 @@
-// src/components/WhoAmI.js
-
 import React from 'react';
 import profileImage from './Images/ProfileImage.png'; // Replace with your actual image path
 import './css/WhoAmI.css';
@@ -12,14 +10,14 @@ const WhoAmI = () => {
   return (
     <div className="who-am-i">
       <div className="who-am-i-content">
+        <div className="who-am-i-image">
+          <img src={profileImage} alt="Caylan Wilcox" />
+        </div>
         <div className="who-am-i-text">
-          <h2>Who Am I?</h2>
-          <div className="who-am-i-image">
-            <img src={profileImage} alt="Caylan Wilcox" />
-          </div>
+          <h2>About Our Founder
+          </h2>
           <p className='preach'>
-            My name is Catura Burnett, and I founded Regal Connections LLC
-            with a singular purpose: to support homeowners who have recently lost their homes in reclaiming what rightfully belongs to them. In times of distress, I understand the overwhelming emotions and uncertainties that come with losing a home. That’s why I’ve dedicated my expertise and resources to help you navigate through this challenging period.
+            My name is Catura Burnett, and I founded Regal Connections LLC with a singular purpose: to support homeowners who have recently lost their homes in reclaiming what rightfully belongs to them. In times of distress, I understand the overwhelming emotions and uncertainties that come with losing a home. That’s why I’ve dedicated my expertise and resources to help you navigate through this challenging period.
             <br /> <br />
             As someone deeply committed to justice and financial recovery, I know how critical it is to receive timely and effective assistance. You shouldn’t have to shoulder the burden of complex legalities or bureaucratic red tape alone. My mission is to handle these intricacies for you, ensuring that you can recover your finances and regain stability without additional stress.
             <br /> <br />
