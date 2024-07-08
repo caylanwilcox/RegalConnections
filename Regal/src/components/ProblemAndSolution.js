@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/ProblemAndSolution.css';
-import problemImage from './Images/sad.jpg';
+import problemImage from './Images/forclosures.jpg';
 import law from './Images/law.jpg';
 import stack from './Images/stack.jpg';
 import mail from './Images/mail.jpg';
-
-
+import zoom from './Images/zoom.jpg'; 
+import paperworkImage from './Images/paperwork.jpg'; 
 const ProblemAndSolution = () => {
   return (
     <section className="problem-and-solution">
@@ -29,20 +29,39 @@ const ProblemAndSolution = () => {
           <img src={stack} alt="Identify" />
         </div>
       </div>
-       
+      <div id="contact-us-section" className="solution section">
+        <div className="solution-image">
+          <img src={zoom} alt="Contact Us" />
+        </div>
+        <div className="solution-text">
+          <h2>2. Contact Us</h2>
+          <p>We will answer any questions you may have, then begin the process to recover the money that is available for you.</p>
+        </div>
+      </div>
+
+      <div id="paperwork-section" className="solution section shaded">
+        
+        <div className="solution-text">
+          <h2>3. Paperwork</h2>
+          <p>Once you have agreed to let us work your claim, we will set up a time for you to sign and notarize several pages of paperwork.</p>
+        </div>
+        <div className="solution-image">
+          <img src={paperworkImage} alt="Paperwork" />
+        </div>
+      </div>
       <div id="contact-section" className="solution section">
         <div className="solution-image">
           <img src={law} alt="Contact" />
         </div>
         <div className="solution-text">
-          <h2>2. Contact</h2>
+          <h2>4. Contact</h2>
           <p>Next, we handle all communications with relevant authorities and institutions to confirm and secure these funds. We manage the paperwork and legal processes on your behalf.</p>
         </div>
       </div>
 
       <div id="recover-section" className="solution section shaded">
         <div className="solution-text">
-          <h2>3. Recover</h2>
+          <h2>5. Recover</h2>
           <p>Finally, we ensure that you receive the recovered funds as quickly as possible. Our team will keep you informed throughout the process and make sure that you get the money you deserve with minimal hassle.</p>
         </div>
         <div className="solution-image">
