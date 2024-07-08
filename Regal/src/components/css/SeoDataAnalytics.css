@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.seo-data-analytics {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.seo-data-analytics-image-container {
+  display: flex;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.seo-data-analytics-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.seo-data-analytics-content-container {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 8px 8px;
+  padding: 5%;
+}
+
+.seo-data-analytics-title {
+  text-align: left;
+  color: #4e699b;
+}
+
+.seo-data-analytics-intro {
+  text-align: left;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.seo-data-analytics-description {
+  text-align: left;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.seo-data-analytics-process {
+  margin-top: 20px;
+}
+
+.seo-data-analytics-subtitle {
+  color: #4e699b;
+}
+
+.seo-data-analytics-step {
+  margin-bottom: 20px;
+}
+
+.seo-data-analytics-step h3 {
+  color: #4e699b;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.seo-data-analytics-step ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.seo-data-analytics-step ul li {
+  margin-bottom: 5px;
+}
+
+.seo-data-analytics-why-choose-us {
+  margin-top: 40px;
+}
+
+.seo-data-analytics-why-choose-us h2 {
+  color: #4e699b;
+}
+
+.seo-data-analytics-why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.seo-data-analytics-why-choose-us ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.seo-data-analytics-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.seo-data-analytics-cta h2 {
+  color: #4e699b;
+  margin-bottom: 10px;
+}
+
+.seo-data-analytics-cta p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.seo-data-analytics-btn-learn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4e699b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.seo-data-analytics-btn-learn-more:hover {
+  background-color: #003399;
+}

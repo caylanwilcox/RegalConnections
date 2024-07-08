@@ -1,0 +1,120 @@
+.local-searches.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  position: relative;
+}
+
+.info-icon {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  background-color: #ffffff;
+  color: #777777;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.local-searches .text-content {
+  flex: 1 1 60%;
+  padding: 10px;
+}
+
+.local-searches .image-content {
+  flex: 1 1 40%;
+  padding: 10px;
+}
+
+.local-searches img {
+  max-width: 100%;
+  height: auto;
+}
+
+.local-searches h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.local-searches p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.local-searches ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.local-searches ul li {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.local-searches .citations-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.local-searches .citations-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.local-searches .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .local-searches.section {
+    flex-direction: column;
+  }
+
+  .local-searches .text-content,
+  .local-searches .image-content {
+    flex: 1 1 100%;
+  }
+
+  .info-icon {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .local-searches .citations-content {
+    padding: 10px;
+  }
+
+  .local-searches .close-button {
+    top: 5px;
+    right: 5px;
+  }
+}
