@@ -7,10 +7,8 @@
 
 .how-is-this-different h2 {
   font-size: 2rem;
-  margin-bottom: 2rem;
-  opacity: 0;
+  margin-bottom: 4rem;
   transform: translateY(20px);
-  transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
 .features {
@@ -40,6 +38,11 @@
   color: #555;
 }
 
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .feature {
@@ -54,9 +57,4 @@
   .feature p {
     font-size: 0.9rem;
   }
-}
-
-.fade-in {
-  opacity: 1;
-  transform: translateY(0);
 }
