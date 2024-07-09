@@ -4,7 +4,7 @@ import './css/WhoAmI.css';
 
 const WhoAmI = () => {
   const openCalendly = () => {
-    window.open('https://calendly.com/caylanwilcox/30min', '_blank');
+    window.open('https://calendly.com/caturaburnett/30min', '_blank');
   };
 
   return (

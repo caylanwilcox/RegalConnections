@@ -23,7 +23,7 @@ const Navbar = () => {
       setTimerStarted(true);
       setTimeout(() => {
         if (window.Calendly) {
-          window.Calendly.initPopupWidget({ url: 'https://calendly.com/caylanwilcox' });
+          window.Calendly.initPopupWidget({ url: 'https://calendly.com/caturaburnett/30min' });
         }
       }, 300000); // 300000 milliseconds = 5 minutes
     }
@@ -31,7 +31,7 @@ const Navbar = () => {
 
   const openCalendly = () => {
     if (window.Calendly) {
-      window.Calendly.initPopupWidget({ url: 'https://calendly.com/caylanwilcox/30min' });
+      window.Calendly.initPopupWidget({ url: 'https://calendly.com/caturaburnett/30min' });
     }
   };
 
@@ -53,7 +53,7 @@ const Navbar = () => {
               onClick={(e) => {
                 e.preventDefault();
                 if (window.Calendly) {
-                  window.Calendly.initPopupWidget({ url: 'https://calendly.com/caylanwilcox/30min' });
+                  window.Calendly.initPopupWidget({ url: 'https://calendly.com/caturaburnett/30min' });
                 }
                 return false;
               }}

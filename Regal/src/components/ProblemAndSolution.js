@@ -2,7 +2,7 @@ import React from 'react';
 import './css/ProblemAndSolution.css';
 import problemImage from './Images/forclosures.jpg';
 import law from './Images/law.jpg';
-import stack from './Images/stack.jpg';
+import stack from './Images/pexels-fauxels-3183150.jpg';
 import mail from './Images/mail.jpg';
 import zoom from './Images/zoom.jpg'; 
 import paperworkImage from './Images/paperwork.jpg'; 

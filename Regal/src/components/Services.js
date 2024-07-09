@@ -5,7 +5,7 @@ import assetRecoveryImage from './Images/groupp.jpg';
 const Services = () => {
   const openCalendly = () => {
     if (window.Calendly) {
-      window.Calendly.initPopupWidget({ url: 'https://calendly.com/caylanwilcox/30min' });
+      window.Calendly.initPopupWidget({ url: 'https://calendly.com/caturaburnett/30min' });
     }
   };
 
