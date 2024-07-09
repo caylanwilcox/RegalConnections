@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-column">
         <div className="contact-info">
           <h2>Contact Us</h2>
-          <p>Email: ContactUS@RegalConnectionsLLC.com</p>
+          <p>Email: ContactUS@RegalConnectionsLLC.org</p>
         </div>
       </div>
       <div className="footer-column">
